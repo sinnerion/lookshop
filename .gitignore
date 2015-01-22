@@ -1,3 +1,4 @@
 .idea
-config.rb
+app/config.rb
 .sass-cache
+.bowerrc
