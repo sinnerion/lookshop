@@ -547,3 +547,48 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 8, ../sass/_main.scss */
+.clearfix:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
+/* line 1, ../sass/_header.scss */
+.header-top {
+  background: #000;
+  line-height: 30px;
+}
+/* line 4, ../sass/_header.scss */
+.header-top, .header-top a {
+  color: #fff;
+}
+/* line 7, ../sass/_header.scss */
+.header-top__phone {
+  text-transform: uppercase;
+}
+/* line 10, ../sass/_header.scss */
+.header-top__account {
+  text-transform: uppercase;
+  float: right;
+}
+/* line 14, ../sass/_header.scss */
+.header-top .language, .header-top a {
+  float: left;
+}
+/* line 17, ../sass/_header.scss */
+.header-top a {
+  display: block;
+}
+/* line 20, ../sass/_header.scss */
+.header-top .language, .header-top__account-search-btn {
+  border-left: 1px solid #444;
+  border-right: 1px solid #444;
+}
+/* line 24, ../sass/_header.scss */
+.header-top__account-search-btn {
+  width: 34px;
+}

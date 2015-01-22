@@ -1,0 +1,27 @@
+.header-top {
+  background: $head-foot;
+  line-height: 30px;
+  &, a {
+    color: $main-color;
+  }
+  &__phone {
+    text-transform: uppercase;
+  }
+  &__account {
+    text-transform: uppercase;
+    float: right;
+  }
+  .language, a {
+    float: left;
+  }
+  a {
+    display: block;
+  }
+  .language, &__account-search-btn {
+    border-left: 1px solid $border1;
+    border-right: 1px solid $border1;
+  }
+  &__account-search-btn {
+    width: 34px;
+  }
+}

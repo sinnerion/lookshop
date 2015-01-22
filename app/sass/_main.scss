@@ -1,0 +1,14 @@
+$head-foot: #000;
+$main-color: #fff;
+$element-color: #fd926d;
+$foot-body: #ededed;
+$border1: #444;
+$border2: #d6d6d6;
+
+.clearfix:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
