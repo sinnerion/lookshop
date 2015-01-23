@@ -11,17 +11,93 @@
     text-transform: uppercase;
     float: right;
   }
+  .language span {
+    font-size: 9px;
+  }
   .language, a {
     float: left;
+    cursor: pointer;
   }
   a {
     display: block;
+  }
+  &__account-link span {
+    margin-right: 10px;
+    color: $icons;
   }
   .language, &__account-search-btn {
     border-left: 1px solid $border1;
     border-right: 1px solid $border1;
   }
-  &__account-search-btn {
-    width: 34px;
+  .language, &__account-search-btn, &__account-link {
+    padding: 0 15px;
+  }
+}
+
+.header-body {
+  padding: 20px 0;
+}
+
+.header-body__logo {
+  float: left;
+  margin-right: 180px;
+}
+
+.header-body__menu {
+  float: left;
+  margin-right: 24px;
+  line-height: 86px;
+  & > ul {
+    display: table;
+    li {
+      display: table-cell;
+      float: left;
+      margin-right: 30px;
+      a {
+        color: $head-foot;
+        padding: 0;
+      }
+      a:hover, a:focus {
+        background: $main-color;
+        outline: none;
+      }
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    span {
+      font-size: 10px;
+    }
+  }
+  & > ul ul {
+    display: none;
+  }
+}
+
+.cart {
+  float: right;
+  width: 215px;
+  &__user-cart, &__cart-info {
+    width: 100%;
+    display: block;
+    border: 1px solid $border2;
+    color: $text-color2;
+    line-height: 33px;
+    padding: 0 9px;
+  }
+  &__user-cart {
+    margin-bottom: -1px;
+    position: relative;
+    cursor: pointer;
+    span {
+      position: absolute;
+      right: 10px;
+      top: 13px;
+    }
+  }
+  &__cart-info {
+    text-align: right;
+    text-transform: uppercase;
+    background: url("../img/cart-icon.png") no-repeat 10px center;
   }
 }
