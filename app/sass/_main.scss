@@ -1,12 +1,17 @@
 $head-foot: #000;
 $main-color: #fff;
 $element-color: #fd926d;
-$foot-body: #ededed;
 $border1: #444;
 $border2: #d6d6d6;
+$border3: #dd6b44;
 $text-color1: #373737;
 $text-color2: #949393;
-$icons: #666;
+$icons1: #666;
+$icons2: #cacac9;
+$icons3: #867a76;
+$bg1: #fdfcfb;
+$bg2: #fafafa;
+$bg3: #ededed;
 
 .clearfix:after {
   content: '';
@@ -14,4 +19,17 @@ $icons: #666;
   visibility: hidden;
   height: 0;
   clear: both;
+}
+
+.btn.my-btn {
+  text-transform: uppercase;
+  color: $main-color;
+  background: $element-color;
+  border-bottom: 3px solid $border3;
+  border-radius: 0 !important;
+  padding: 0;
+}
+
+.btn.my-btn:hover {
+  color: $main-color;
 }

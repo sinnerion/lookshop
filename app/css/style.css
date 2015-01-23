@@ -548,13 +548,28 @@ table {
   border-spacing: 0;
 }
 
-/* line 11, ../sass/_main.scss */
+/* line 16, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
   visibility: hidden;
   height: 0;
   clear: both;
+}
+
+/* line 24, ../sass/_main.scss */
+.btn.my-btn {
+  text-transform: uppercase;
+  color: #fff;
+  background: #fd926d;
+  border-bottom: 3px solid #dd6b44;
+  border-radius: 0 !important;
+  padding: 0;
+}
+
+/* line 33, ../sass/_main.scss */
+.btn.my-btn:hover {
+  color: #fff;
 }
 
 /* line 1, ../sass/_header.scss */
@@ -684,4 +699,79 @@ table {
   text-align: right;
   text-transform: uppercase;
   background: url("../img/cart-icon.png") no-repeat 10px center;
+}
+
+/* line 2, ../sass/_slider.scss */
+.slider-pictures img {
+  width: 100%;
+}
+/* line 5, ../sass/_slider.scss */
+.slider-pictures__caption {
+  width: 400px;
+  text-align: center;
+  left: 15% !important;
+}
+/* line 9, ../sass/_slider.scss */
+.slider-pictures__caption img {
+  margin-bottom: 18px;
+}
+/* line 13, ../sass/_slider.scss */
+.slider-pictures .shop-btn {
+  padding: 0 25px;
+  font-size: 16px;
+  line-height: 54px;
+}
+/* line 17, ../sass/_slider.scss */
+.slider-pictures .shop-btn span {
+  margin-left: 20px;
+  font-size: 9px;
+}
+
+/* line 24, ../sass/_slider.scss */
+.carousel-control.slider__control {
+  display: inline-block;
+  width: 30px;
+  background-color: #fdfcfb;
+  background-image: none !important;
+  padding: 0 8px 0 10px;
+  height: 117px;
+  top: 50%;
+  margin-top: -53px;
+  color: #cacac9;
+  text-shadow: none;
+  opacity: 1;
+}
+/* line 36, ../sass/_slider.scss */
+.carousel-control.slider__control:hover, .carousel-control.slider__control:focus {
+  color: #cacac9;
+}
+/* line 39, ../sass/_slider.scss */
+.carousel-control.slider__control:hover {
+  outline: none;
+  box-shadow: -1px 0 3px 1px #bdbdbc;
+}
+/* line 43, ../sass/_slider.scss */
+.carousel-control.slider__control:active .glyphicon {
+  transform: scale(0.8);
+  transition: transform .3s;
+}
+
+/* line 49, ../sass/_slider.scss */
+.carousel-indicators.slider__indicators {
+  background: #fff;
+  width: 100%;
+  line-height: 75px;
+  bottom: -84px;
+  left: 0;
+  margin-left: 0;
+}
+/* line 56, ../sass/_slider.scss */
+.carousel-indicators.slider__indicators li {
+  background-color: #867a76;
+}
+/* line 58, ../sass/_slider.scss */
+.carousel-indicators.slider__indicators li.active {
+  background-color: #fd926d;
+  width: 10px;
+  height: 10px;
 }

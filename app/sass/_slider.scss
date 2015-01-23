@@ -1,0 +1,66 @@
+.slider-pictures {
+  img {
+    width: 100%;
+  }
+  &__caption {
+    width: 400px;
+    text-align: center;
+    left: 15% !important;
+    img {
+      margin-bottom: 18px;
+    }
+  }
+  .shop-btn {
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 54px;
+    span {
+      margin-left: 20px;
+      font-size: 9px;
+    }
+  }
+}
+
+.carousel-control.slider__control {
+  display: inline-block;
+  width: 30px;
+  background-color: $bg1;
+  background-image: none !important;
+  padding: 0 8px 0 10px;
+  height: 117px;
+  top: 50%;
+  margin-top: -53px;
+  color: $icons2;
+  text-shadow: none;
+  opacity: 1;
+  &:hover, &:focus {
+    color: $icons2;
+  }
+  &:hover {
+    outline: none;
+    box-shadow: -1px 0 3px 1px darken($icons2, 5%);
+  }
+  &:active .glyphicon {
+    transform: scale(.8);
+    transition: transform .3s;
+  }
+}
+
+.carousel-indicators.slider__indicators {
+  background: $main-color;
+  width: 100%;
+  line-height: 75px;
+  bottom: -84px;
+  left: 0;
+  margin-left: 0;
+  li {
+    background-color: $icons3;
+    &.active {
+      background-color: $element-color;
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+}
+
