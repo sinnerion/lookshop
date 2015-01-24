@@ -556,11 +556,6 @@ table {
 }
 
 /* line 25, ../sass/_main.scss */
-html body {
-  font-size: 10px;
-}
-
-/* line 29, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -569,7 +564,7 @@ html body {
   clear: both;
 }
 
-/* line 37, ../sass/_main.scss */
+/* line 33, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -579,7 +574,7 @@ html body {
   padding: 0;
 }
 
-/* line 46, ../sass/_main.scss */
+/* line 42, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
@@ -795,32 +790,35 @@ html body {
 
 /* line 1, ../sass/_content.scss */
 .subscribe {
+  margin-bottom: 4rem;
   background: #ededed;
   color: #6c6c6c;
+  height: 5.5rem;
   line-height: 5.5rem;
 }
-/* line 5, ../sass/_content.scss */
+/* line 7, ../sass/_content.scss */
 .subscribe span {
   font-size: 1.2rem;
+  margin-right: 1rem;
 }
-/* line 8, ../sass/_content.scss */
+/* line 11, ../sass/_content.scss */
 .subscribe input {
   line-height: 0;
   outline: none;
   border: none;
 }
-/* line 13, ../sass/_content.scss */
+/* line 16, ../sass/_content.scss */
 .subscribe__email {
   vertical-align: middle;
   float: left;
 }
-/* line 16, ../sass/_content.scss */
+/* line 19, ../sass/_content.scss */
 .subscribe__email input[type="text"] {
   padding: 0.9rem 0px 0.9rem 0.9rem;
   margin-right: -0.4rem;
   font-style: italic;
 }
-/* line 21, ../sass/_content.scss */
+/* line 24, ../sass/_content.scss */
 .subscribe__email input[type="submit"] {
   height: 2.8rem;
   width: 2.8rem;
@@ -828,28 +826,42 @@ html body {
   border: none;
   border-bottom: 2px solid #dd6b44;
 }
-/* line 29, ../sass/_content.scss */
+/* line 32, ../sass/_content.scss */
 .subscribe__social {
   vertical-align: middle;
   float: right;
   font-size: 0;
 }
-/* line 34, ../sass/_content.scss */
+/* line 36, ../sass/_content.scss */
+.subscribe__social span {
+  position: relative;
+  top: -2.3rem;
+}
+/* line 41, ../sass/_content.scss */
 .subscribe .social {
   display: inline-block;
   width: 5.5rem;
   height: 5.5rem;
   color: #6b6b6b;
 }
-/* line 39, ../sass/_content.scss */
+/* line 46, ../sass/_content.scss */
 .subscribe .social-fb {
   background: #f7f7f7 url("../img/social-subscribe.png") no-repeat 2.2rem center;
 }
-/* line 42, ../sass/_content.scss */
+/* line 49, ../sass/_content.scss */
 .subscribe .social-tw {
   background: url("../img/social-subscribe.png") no-repeat -3.2rem center;
 }
-/* line 45, ../sass/_content.scss */
+/* line 52, ../sass/_content.scss */
 .subscribe .social-pt {
   background: #f7f7f7 url("../img/social-subscribe.png") no-repeat -8.7rem center;
+}
+
+/* line 58, ../sass/_content.scss */
+.ad {
+  height: 34rem;
+}
+/* line 60, ../sass/_content.scss */
+.ad__link {
+  display: block;
 }

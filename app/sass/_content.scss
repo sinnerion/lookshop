@@ -1,9 +1,12 @@
 .subscribe {
+  margin-bottom: 4rem;
   background: $bg3;
   color: $text-color3;
+  height: 5.5rem;
   line-height: 5.5rem;
   span {
     font-size: 1.2rem;
+    margin-right: 1rem;
   }
   input {
     line-height: 0;
@@ -30,6 +33,10 @@
     vertical-align: middle;
     float: right;
     font-size: 0;
+    span {
+      position: relative;
+      top: -2.3rem;
+    }
   }
   .social {
     display: inline-block;
@@ -45,5 +52,12 @@
     &-pt {
       background: $bg4 url("../img/social-subscribe.png") no-repeat -8.7rem center;
     }
+  }
+}
+
+.ad {
+  height: 34rem;
+  &__link {
+    display: block;
   }
 }
