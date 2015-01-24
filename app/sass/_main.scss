@@ -6,12 +6,25 @@ $border2: #d6d6d6;
 $border3: #dd6b44;
 $text-color1: #373737;
 $text-color2: #949393;
+$text-color3: #6c6c6c;
 $icons1: #666;
 $icons2: #cacac9;
 $icons3: #867a76;
+$icons4: #6b6b6b;
 $bg1: #fdfcfb;
 $bg2: #fafafa;
 $bg3: #ededed;
+$bg4: #f7f7f7;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html body {
+  font-size: 10px;
+}
 
 .clearfix:after {
   content: '';
@@ -25,7 +38,7 @@ $bg3: #ededed;
   text-transform: uppercase;
   color: $main-color;
   background: $element-color;
-  border-bottom: 3px solid $border3;
+  border-bottom: .3rem solid $border3;
   border-radius: 0 !important;
   padding: 0;
 }

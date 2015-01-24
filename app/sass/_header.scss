@@ -1,6 +1,6 @@
 .header-top {
   background: $head-foot;
-  line-height: 30px;
+  line-height: 3rem;
   &, a {
     color: $main-color;
   }
@@ -12,7 +12,7 @@
     float: right;
   }
   .language span {
-    font-size: 9px;
+    font-size: .9rem;
   }
   .language, a {
     float: left;
@@ -22,7 +22,7 @@
     display: block;
   }
   &__account-link span {
-    margin-right: 10px;
+    margin-right: 1rem;
     color: $icons1;
   }
   .language, &__account-search-btn {
@@ -30,29 +30,29 @@
     border-right: 1px solid $border1;
   }
   .language, &__account-search-btn, &__account-link {
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
 }
 
 .header-body {
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .header-body__logo {
   float: left;
-  margin-right: 180px;
+  margin-right: 18rem;
 }
 
 .header-body__menu {
   float: left;
-  margin-right: 24px;
-  line-height: 86px;
+  margin-right: 2.4rem;
+  line-height: 8.6rem;
   & > ul {
     display: table;
     li {
       display: table-cell;
       float: left;
-      margin-right: 30px;
+      margin-right: 3rem;
       a {
         color: $head-foot;
         padding: 0;
@@ -66,7 +66,7 @@
       margin-right: 0;
     }
     span {
-      font-size: 10px;
+      font-size: 1rem;
     }
   }
   & > ul ul {
@@ -76,28 +76,28 @@
 
 .cart {
   float: right;
-  width: 215px;
+  width: 21.5rem;
   &__user-cart, &__cart-info {
     width: 100%;
     display: block;
     border: 1px solid $border2;
     color: $text-color2;
-    line-height: 33px;
-    padding: 0 9px;
+    line-height: 3.3rem;
+    padding: 0 .9rem;
   }
   &__user-cart {
-    margin-bottom: -1px;
+    margin-bottom: -.1rem;
     position: relative;
     cursor: pointer;
     span {
       position: absolute;
-      right: 10px;
-      top: 13px;
+      right: 1rem;
+      top: 1.3rem;
     }
   }
   &__cart-info {
     text-align: right;
     text-transform: uppercase;
-    background: url("../img/cart-icon.png") no-repeat 10px center;
+    background: url("../img/cart-icon.png") no-repeat 1rem center;
   }
 }

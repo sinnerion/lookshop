@@ -1,0 +1,49 @@
+.subscribe {
+  background: $bg3;
+  color: $text-color3;
+  line-height: 5.5rem;
+  span {
+    font-size: 1.2rem;
+  }
+  input {
+    line-height: 0;
+    outline: none;
+    border: none;
+  }
+  &__email {
+    vertical-align: middle;
+    float: left;
+    input[type="text"] {
+      padding: 0.9rem 0px 0.9rem 0.9rem;
+      margin-right: -0.4rem;
+      font-style: italic;
+    }
+    input[type="submit"] {
+      height: 2.8rem;
+      width: 2.8rem;
+      background: $element-color url("../img/plus-icon.png") no-repeat center center;
+      border: none;
+      border-bottom: 2px solid $border3;
+    }
+  }
+  &__social {
+    vertical-align: middle;
+    float: right;
+    font-size: 0;
+  }
+  .social {
+    display: inline-block;
+    width: 5.5rem;
+    height: 5.5rem;
+    color: $icons4;
+    &-fb {
+      background: $bg4 url("../img/social-subscribe.png") no-repeat 2.2rem center;
+    }
+    &-tw {
+      background: url("../img/social-subscribe.png") no-repeat -3.2rem center;
+    }
+    &-pt {
+      background: $bg4 url("../img/social-subscribe.png") no-repeat -8.7rem center;
+    }
+  }
+}

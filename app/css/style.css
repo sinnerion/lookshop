@@ -548,7 +548,19 @@ table {
   border-spacing: 0;
 }
 
-/* line 16, ../sass/_main.scss */
+/* line 19, ../sass/_main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 25, ../sass/_main.scss */
+html body {
+  font-size: 10px;
+}
+
+/* line 29, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -557,17 +569,17 @@ table {
   clear: both;
 }
 
-/* line 24, ../sass/_main.scss */
+/* line 37, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
   background: #fd926d;
-  border-bottom: 3px solid #dd6b44;
+  border-bottom: 0.3rem solid #dd6b44;
   border-radius: 0 !important;
   padding: 0;
 }
 
-/* line 33, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
@@ -575,7 +587,7 @@ table {
 /* line 1, ../sass/_header.scss */
 .header-top {
   background: #000;
-  line-height: 30px;
+  line-height: 3rem;
 }
 /* line 4, ../sass/_header.scss */
 .header-top, .header-top a {
@@ -592,7 +604,7 @@ table {
 }
 /* line 14, ../sass/_header.scss */
 .header-top .language span {
-  font-size: 9px;
+  font-size: .9rem;
 }
 /* line 17, ../sass/_header.scss */
 .header-top .language, .header-top a {
@@ -605,7 +617,7 @@ table {
 }
 /* line 24, ../sass/_header.scss */
 .header-top__account-link span {
-  margin-right: 10px;
+  margin-right: 1rem;
   color: #666;
 }
 /* line 28, ../sass/_header.scss */
@@ -615,25 +627,25 @@ table {
 }
 /* line 32, ../sass/_header.scss */
 .header-top .language, .header-top__account-search-btn, .header-top__account-link {
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
 
 /* line 37, ../sass/_header.scss */
 .header-body {
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 /* line 41, ../sass/_header.scss */
 .header-body__logo {
   float: left;
-  margin-right: 180px;
+  margin-right: 18rem;
 }
 
 /* line 46, ../sass/_header.scss */
 .header-body__menu {
   float: left;
-  margin-right: 24px;
-  line-height: 86px;
+  margin-right: 2.4rem;
+  line-height: 8.6rem;
 }
 /* line 50, ../sass/_header.scss */
 .header-body__menu > ul {
@@ -643,7 +655,7 @@ table {
 .header-body__menu > ul li {
   display: table-cell;
   float: left;
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 /* line 56, ../sass/_header.scss */
 .header-body__menu > ul li a {
@@ -661,7 +673,7 @@ table {
 }
 /* line 68, ../sass/_header.scss */
 .header-body__menu > ul span {
-  font-size: 10px;
+  font-size: 1rem;
 }
 /* line 72, ../sass/_header.scss */
 .header-body__menu > ul ul {
@@ -671,7 +683,7 @@ table {
 /* line 77, ../sass/_header.scss */
 .cart {
   float: right;
-  width: 215px;
+  width: 21.5rem;
 }
 /* line 80, ../sass/_header.scss */
 .cart__user-cart, .cart__cart-info {
@@ -679,99 +691,165 @@ table {
   display: block;
   border: 1px solid #d6d6d6;
   color: #949393;
-  line-height: 33px;
-  padding: 0 9px;
+  line-height: 3.3rem;
+  padding: 0 .9rem;
 }
 /* line 88, ../sass/_header.scss */
 .cart__user-cart {
-  margin-bottom: -1px;
+  margin-bottom: -.1rem;
   position: relative;
   cursor: pointer;
 }
 /* line 92, ../sass/_header.scss */
 .cart__user-cart span {
   position: absolute;
-  right: 10px;
-  top: 13px;
+  right: 1rem;
+  top: 1.3rem;
 }
 /* line 98, ../sass/_header.scss */
 .cart__cart-info {
   text-align: right;
   text-transform: uppercase;
-  background: url("../img/cart-icon.png") no-repeat 10px center;
+  background: url("../img/cart-icon.png") no-repeat 1rem center;
 }
 
-/* line 2, ../sass/_slider.scss */
+/* line 1, ../sass/_slider.scss */
+.slider {
+  margin-bottom: 8rem;
+}
+
+/* line 6, ../sass/_slider.scss */
 .slider-pictures img {
   width: 100%;
 }
-/* line 5, ../sass/_slider.scss */
+/* line 9, ../sass/_slider.scss */
 .slider-pictures__caption {
-  width: 400px;
+  width: 40rem;
   text-align: center;
   left: 15% !important;
 }
-/* line 9, ../sass/_slider.scss */
-.slider-pictures__caption img {
-  margin-bottom: 18px;
-}
 /* line 13, ../sass/_slider.scss */
-.slider-pictures .shop-btn {
-  padding: 0 25px;
-  font-size: 16px;
-  line-height: 54px;
+.slider-pictures__caption img {
+  margin-bottom: 1.8rem;
 }
 /* line 17, ../sass/_slider.scss */
+.slider-pictures .shop-btn {
+  padding: 0 2.5rem;
+  font-size: 1.6rem;
+  line-height: 5.4rem;
+}
+/* line 21, ../sass/_slider.scss */
 .slider-pictures .shop-btn span {
-  margin-left: 20px;
-  font-size: 9px;
+  margin-left: 2rem;
+  font-size: .9rem;
 }
 
-/* line 24, ../sass/_slider.scss */
+/* line 28, ../sass/_slider.scss */
 .carousel-control.slider__control {
   display: inline-block;
-  width: 30px;
+  width: 3rem;
   background-color: #fdfcfb;
   background-image: none !important;
-  padding: 0 8px 0 10px;
-  height: 117px;
+  padding: 0 .8rem 0 1rem;
+  height: 11.7rem;
   top: 50%;
-  margin-top: -53px;
+  margin-top: -5.3rem;
   color: #cacac9;
   text-shadow: none;
   opacity: 1;
 }
-/* line 36, ../sass/_slider.scss */
+/* line 40, ../sass/_slider.scss */
 .carousel-control.slider__control:hover, .carousel-control.slider__control:focus {
   color: #cacac9;
 }
-/* line 39, ../sass/_slider.scss */
+/* line 43, ../sass/_slider.scss */
 .carousel-control.slider__control:hover {
   outline: none;
   box-shadow: -1px 0 3px 1px #bdbdbc;
 }
-/* line 43, ../sass/_slider.scss */
+/* line 47, ../sass/_slider.scss */
 .carousel-control.slider__control:active .glyphicon {
   transform: scale(0.8);
   transition: transform .3s;
 }
 
-/* line 49, ../sass/_slider.scss */
+/* line 53, ../sass/_slider.scss */
 .carousel-indicators.slider__indicators {
   background: #fff;
   width: 100%;
-  line-height: 75px;
-  bottom: -84px;
+  line-height: 7.5rem;
+  bottom: -8.4rem;
   left: 0;
   margin-left: 0;
 }
-/* line 56, ../sass/_slider.scss */
+/* line 60, ../sass/_slider.scss */
 .carousel-indicators.slider__indicators li {
   background-color: #867a76;
 }
-/* line 58, ../sass/_slider.scss */
+/* line 62, ../sass/_slider.scss */
 .carousel-indicators.slider__indicators li.active {
   background-color: #fd926d;
-  width: 10px;
-  height: 10px;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* line 1, ../sass/_content.scss */
+.subscribe {
+  background: #ededed;
+  color: #6c6c6c;
+  line-height: 5.5rem;
+}
+/* line 5, ../sass/_content.scss */
+.subscribe span {
+  font-size: 1.2rem;
+}
+/* line 8, ../sass/_content.scss */
+.subscribe input {
+  line-height: 0;
+  outline: none;
+  border: none;
+}
+/* line 13, ../sass/_content.scss */
+.subscribe__email {
+  vertical-align: middle;
+  float: left;
+}
+/* line 16, ../sass/_content.scss */
+.subscribe__email input[type="text"] {
+  padding: 0.9rem 0px 0.9rem 0.9rem;
+  margin-right: -0.4rem;
+  font-style: italic;
+}
+/* line 21, ../sass/_content.scss */
+.subscribe__email input[type="submit"] {
+  height: 2.8rem;
+  width: 2.8rem;
+  background: #fd926d url("../img/plus-icon.png") no-repeat center center;
+  border: none;
+  border-bottom: 2px solid #dd6b44;
+}
+/* line 29, ../sass/_content.scss */
+.subscribe__social {
+  vertical-align: middle;
+  float: right;
+  font-size: 0;
+}
+/* line 34, ../sass/_content.scss */
+.subscribe .social {
+  display: inline-block;
+  width: 5.5rem;
+  height: 5.5rem;
+  color: #6b6b6b;
+}
+/* line 39, ../sass/_content.scss */
+.subscribe .social-fb {
+  background: #f7f7f7 url("../img/social-subscribe.png") no-repeat 2.2rem center;
+}
+/* line 42, ../sass/_content.scss */
+.subscribe .social-tw {
+  background: url("../img/social-subscribe.png") no-repeat -3.2rem center;
+}
+/* line 45, ../sass/_content.scss */
+.subscribe .social-pt {
+  background: #f7f7f7 url("../img/social-subscribe.png") no-repeat -8.7rem center;
 }

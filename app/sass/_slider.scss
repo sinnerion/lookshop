@@ -1,35 +1,39 @@
+.slider {
+  margin-bottom: 8rem;
+}
+
 .slider-pictures {
   img {
     width: 100%;
   }
   &__caption {
-    width: 400px;
+    width: 40rem;
     text-align: center;
     left: 15% !important;
     img {
-      margin-bottom: 18px;
+      margin-bottom: 1.8rem;
     }
   }
   .shop-btn {
-    padding: 0 25px;
-    font-size: 16px;
-    line-height: 54px;
+    padding: 0 2.5rem;
+    font-size: 1.6rem;
+    line-height: 5.4rem;
     span {
-      margin-left: 20px;
-      font-size: 9px;
+      margin-left: 2rem;
+      font-size: .9rem;
     }
   }
 }
 
 .carousel-control.slider__control {
   display: inline-block;
-  width: 30px;
+  width: 3rem;
   background-color: $bg1;
   background-image: none !important;
-  padding: 0 8px 0 10px;
-  height: 117px;
+  padding: 0 .8rem 0 1rem;
+  height: 11.7rem;
   top: 50%;
-  margin-top: -53px;
+  margin-top: -5.3rem;
   color: $icons2;
   text-shadow: none;
   opacity: 1;
@@ -49,16 +53,16 @@
 .carousel-indicators.slider__indicators {
   background: $main-color;
   width: 100%;
-  line-height: 75px;
-  bottom: -84px;
+  line-height: 7.5rem;
+  bottom: -8.4rem;
   left: 0;
   margin-left: 0;
   li {
     background-color: $icons3;
     &.active {
       background-color: $element-color;
-      width: 10px;
-      height: 10px;
+      width: 1rem;
+      height: 1rem;
     }
   }
 
