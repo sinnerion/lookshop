@@ -15,6 +15,7 @@ $bg1: #fdfcfb;
 $bg2: #fafafa;
 $bg3: #ededed;
 $bg4: #f7f7f7;
+$bg5: #4fafa0;
 
 * {
   -webkit-box-sizing: border-box;
@@ -33,7 +34,6 @@ $bg4: #f7f7f7;
 .btn.my-btn {
   text-transform: uppercase;
   color: $main-color;
-  background: $element-color;
   border-bottom: .3rem solid $border3;
   border-radius: 0 !important;
   padding: 0;
@@ -41,4 +41,16 @@ $bg4: #f7f7f7;
 
 .btn.my-btn:hover {
   color: $main-color;
+}
+
+.btn.shop-btn {
+  background: $element-color;
+}
+
+.my-btn.shop-btn-2 {
+  display: block;
+  background: $bg5;
+  border: none;
+  line-height: 3rem;
+  padding: 0 .8rem;
 }

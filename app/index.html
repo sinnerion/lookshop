@@ -88,7 +88,7 @@
         </div>
     </header>
     <section class="content">
-        <div id="main-slider" class="carousel slide slider" data-ride="carousel">
+        <div id="main-slider" class="carousel slide slider hidden-xs hidden-sm" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators slider__indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
@@ -156,11 +156,30 @@
             </div>
         </div>
 
-        <div class="ad">
-            <a class="ad__link" href="#"><img src="img/ad-img-1.png" alt=""/></a>
-            <a class="ad__link" href="#"><img src="img/ad-img-2.png" alt=""/></a>
-            <a class="ad__link" href="#"><img src="img/ad-img-3.png" alt=""/></a>
-            <a class="ad__link" href="#"><img src="img/ad-img-4.png" alt=""/></a>
+        <div class="best-offers">
+            <div class="container">
+                <div class="row">
+                    <a class="hidden-xs col-sm-6 col-md-6 col-lg-6 best-offers__link" href="#">
+                        <img src="img/ad-img-1.png" alt=""/>
+                        <span class="hidden-xs hidden-sm"><img src="img/ad-caption-1.png" alt=""/></span>
+                    </a>
+                    <a class="hidden-xs col-sm-6 col-md-6 col-lg-6 best-offers__link" href="#">
+                        <img src="img/ad-img-2.png" alt=""/>
+                        <span class="hidden-xs hidden-sm"><img src="img/ad-caption-2.png" alt=""/></span>
+                    </a>
+                    <a class="hidden-xs col-sm-3 col-md-3 col-lg-3 best-offers__link" href="#">
+                        <img src="img/ad-img-3.png" alt=""/>
+                        <span class="hidden-xs hidden-sm"><img src="img/ad-caption-3.png" alt=""/></span>
+                    </a>
+                    <a class="hidden-xs col-sm-3 col-md-3 col-lg-3 best-offers__link" href="#">
+                        <img src="img/ad-img-4.png" alt=""/>
+                        <span class="hidden-xs hidden-sm">
+                            <img src="img/ad-caption-4.png" alt=""/>
+                            <button type="button" class="btn my-btn shop-btn-2" href="#">Shop now <span class="glyphicon glyphicon-triangle-right"></span></button>
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -170,6 +189,5 @@
 
     <script src="components/jquery/dist/jquery.min.js"></script>
     <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
-
 </body>
 </html>
