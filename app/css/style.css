@@ -745,32 +745,31 @@ ul li a:active {
 }
 
 /* line 6, ../sass/_slider.scss */
-.slider-pictures img {
+.carousel-inner.slider-pictures img {
   width: 100%;
 }
 /* line 9, ../sass/_slider.scss */
-.slider-pictures__caption {
-  width: 40rem;
-  text-align: center;
-  left: 15% !important;
+.carousel-inner.slider-pictures .slider-pictures__caption {
+  width: 50rem;
+  left: 10% !important;
 }
-/* line 13, ../sass/_slider.scss */
-.slider-pictures__caption img {
+/* line 12, ../sass/_slider.scss */
+.carousel-inner.slider-pictures .slider-pictures__caption img {
   margin-bottom: 1.8rem;
 }
-/* line 17, ../sass/_slider.scss */
-.slider-pictures .shop-btn {
+/* line 16, ../sass/_slider.scss */
+.carousel-inner.slider-pictures .shop-btn {
   padding: 0 2.5rem;
   font-size: 1.6rem;
   line-height: 5.4rem;
 }
-/* line 21, ../sass/_slider.scss */
-.slider-pictures .shop-btn span {
+/* line 20, ../sass/_slider.scss */
+.carousel-inner.slider-pictures .shop-btn span {
   margin-left: 2rem;
   font-size: .9rem;
 }
 
-/* line 28, ../sass/_slider.scss */
+/* line 27, ../sass/_slider.scss */
 .carousel-control.slider__control {
   display: inline-block;
   width: 3rem;
@@ -784,22 +783,22 @@ ul li a:active {
   text-shadow: none;
   opacity: 1;
 }
-/* line 40, ../sass/_slider.scss */
+/* line 39, ../sass/_slider.scss */
 .carousel-control.slider__control:hover, .carousel-control.slider__control:focus {
   color: #cacac9;
 }
-/* line 43, ../sass/_slider.scss */
+/* line 42, ../sass/_slider.scss */
 .carousel-control.slider__control:hover {
   outline: none;
   box-shadow: -1px 0 3px 1px #bdbdbc;
 }
-/* line 47, ../sass/_slider.scss */
+/* line 46, ../sass/_slider.scss */
 .carousel-control.slider__control:active .glyphicon {
   transform: scale(0.8);
   transition: transform .3s;
 }
 
-/* line 53, ../sass/_slider.scss */
+/* line 52, ../sass/_slider.scss */
 .carousel-indicators.slider__indicators {
   background: #fff;
   width: 100%;
@@ -808,11 +807,11 @@ ul li a:active {
   left: 0;
   margin-left: 0;
 }
-/* line 60, ../sass/_slider.scss */
+/* line 59, ../sass/_slider.scss */
 .carousel-indicators.slider__indicators li {
   background-color: #867a76;
 }
-/* line 62, ../sass/_slider.scss */
+/* line 61, ../sass/_slider.scss */
 .carousel-indicators.slider__indicators li.active {
   background-color: #fd926d;
   width: 1rem;
