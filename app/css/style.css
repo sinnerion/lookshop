@@ -548,14 +548,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 20, ../sass/_main.scss */
+/* line 23, ../sass/_main.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 26, ../sass/_main.scss */
+/* line 29, ../sass/_main.scss */
+ul li a:focus,
+ul li a:active {
+  outline: none;
+  border: none;
+}
+
+/* line 35, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -564,7 +571,7 @@ table {
   clear: both;
 }
 
-/* line 34, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -573,23 +580,34 @@ table {
   padding: 0;
 }
 
-/* line 42, ../sass/_main.scss */
+/* line 51, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
 
-/* line 46, ../sass/_main.scss */
+/* line 55, ../sass/_main.scss */
 .btn.shop-btn {
   background: #fd926d;
 }
 
-/* line 50, ../sass/_main.scss */
+/* line 59, ../sass/_main.scss */
 .my-btn.shop-btn-2 {
   display: block;
   background: #4fafa0;
   border: none;
   line-height: 3rem;
   padding: 0 .8rem;
+}
+
+/* line 67, ../sass/_main.scss */
+.my-btn.add-cart-btn {
+  background: #fd926d;
+}
+
+/* line 71, ../sass/_main.scss */
+.my-btn.add-cart-btn:active,
+.my-btn.add-cart-btn:focus {
+  color: #fff;
 }
 
 /* line 1, ../sass/_header.scss */
@@ -872,7 +890,7 @@ table {
 
 /* line 58, ../sass/_content.scss */
 .best-offers {
-  max-height: 34rem;
+  margin-bottom: 5rem;
 }
 /* line 60, ../sass/_content.scss */
 .best-offers__link {
@@ -922,4 +940,108 @@ table {
 /* line 95, ../sass/_content.scss */
 .best-offers__link:nth-child(4) > span .glyphicon {
   font-size: 1rem;
+}
+
+/* line 101, ../sass/_content.scss */
+.shopping {
+  margin-bottom: 2.5rem;
+}
+/* line 103, ../sass/_content.scss */
+.shopping__tabs.nav-tabs {
+  border: none;
+  margin-bottom: -.2rem;
+}
+/* line 107, ../sass/_content.scss */
+.shopping__tabs.nav-tabs li {
+  margin-bottom: 0;
+}
+/* line 110, ../sass/_content.scss */
+.shopping__tabs.nav-tabs > li > a {
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #555;
+  border: none;
+}
+/* line 117, ../sass/_content.scss */
+.shopping__tabs.nav-tabs > li.active > a, .shopping__tabs.nav-tabs > li:focus > a, .shopping__tabs.nav-tabs > li > a:hover, .shopping__tabs.nav-tabs > li.active > a:hover, .shopping__tabs.nav-tabs > li.active > a:focus {
+  background: #fd926d;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+}
+/* line 127, ../sass/_content.scss */
+.shopping__tab-pane.active {
+  background: #fd926d;
+  padding: 3rem 0;
+}
+/* line 131, ../sass/_content.scss */
+.shopping__tab-pane .item {
+  cursor: pointer;
+  color: #373737;
+  text-align: center;
+  background: #f7f7f7;
+  width: 20%;
+  padding: 0 0 1rem;
+  margin: 0 2.45%;
+}
+/* line 139, ../sass/_content.scss */
+.shopping__tab-pane .item img {
+  width: 100%;
+}
+/* line 142, ../sass/_content.scss */
+.shopping__tab-pane .item__description {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+/* line 146, ../sass/_content.scss */
+.shopping__tab-pane .item__price {
+  font-size: 2.2rem;
+}
+/* line 149, ../sass/_content.scss */
+.shopping__tab-pane .item img, .shopping__tab-pane .item__description, .shopping__tab-pane .item__price {
+  margin-bottom: 1rem;
+}
+/* line 154, ../sass/_content.scss */
+.shopping__tab-pane .item .add-cart-btn {
+  padding: 0 1rem;
+  line-height: 3rem;
+}
+/* line 158, ../sass/_content.scss */
+.shopping__tab-pane .item__shop-it {
+  display: none;
+}
+/* line 161, ../sass/_content.scss */
+.shopping__tab-pane .item:hover {
+  position: relative;
+  transform: scale(1.07);
+  transition: all 1.4s;
+  box-shadow: 0 0 14px 5px #d37a5b;
+}
+/* line 166, ../sass/_content.scss */
+.shopping__tab-pane .item:hover .item__shop-it {
+  font-size: 1.2rem;
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: 13.7rem;
+  height: 13.7rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -6.8rem;
+  margin-top: -6.8rem;
+  background: #3d3d3d url("../img/shop-it-icon.png") no-repeat center 40%;
+  border-radius: 50%;
+}
+/* line 180, ../sass/_content.scss */
+.shopping__tab-pane .item:hover .item__shop-it span {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+  text-transform: uppercase;
+}
+/* line 189, ../sass/_content.scss */
+.shopping__tab-pane .item:last-child {
+  margin-right: 0;
 }

@@ -56,7 +56,7 @@
 }
 
 .best-offers {
-  max-height: 34rem;
+  margin-bottom: 5rem;
   &__link {
     padding: .1rem !important;
     display: block;
@@ -95,5 +95,98 @@
     .glyphicon {
       font-size: 1rem;
     }
+  }
+}
+
+.shopping {
+  margin-bottom: 2.5rem;
+  &__tabs.nav-tabs {
+    border: none;
+    margin-bottom: -.2rem;
+  }
+  &__tabs.nav-tabs li {
+    margin-bottom: 0;
+  }
+  &__tabs.nav-tabs > li > a {
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: $text-color4;
+    border: none;
+  }
+  &__tabs.nav-tabs > li.active > a,
+  &__tabs.nav-tabs > li:focus > a,
+  &__tabs.nav-tabs > li > a:hover,
+  &__tabs.nav-tabs > li.active > a:hover,
+  &__tabs.nav-tabs > li.active > a:focus {
+    background: $element-color;
+    border: none;
+    border-radius: 0;
+    color: $main-color;
+  }
+  &__tab-pane.active {
+    background: $element-color;
+    padding: 3rem 0;
+  }
+  &__tab-pane .item {
+    cursor: pointer;
+    color: $text-color1;
+    text-align: center;
+    background: $bg4;
+    width: 20%;
+    padding: 0 0 1rem;
+    margin: 0 2.45%;
+    img {
+      width: 100%;
+    }
+    &__description {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+    &__price {
+      font-size: 2.2rem;
+    }
+    img,
+    &__description,
+    &__price {
+      margin-bottom: 1rem;
+    }
+    .add-cart-btn {
+      padding: 0 1rem;
+      line-height: 3rem;
+    }
+    &__shop-it {
+      display: none;
+    }
+    &:hover {
+      position: relative;
+      transform: scale(1.07);
+      transition: all 1.4s;
+      box-shadow: 0 0 14px 5px $shadow1;
+      .item__shop-it {
+        font-size: 1.2rem;
+        color: $main-color;
+        display: block;
+        position: absolute;
+        width: 13.7rem;
+        height: 13.7rem;
+        top: 50%;
+        left: 50%;
+        margin-left: -6.8rem;
+        margin-top: -6.8rem;
+        background: $bg6 url("../img/shop-it-icon.png") no-repeat center 40%;
+        border-radius: 50%;
+      }
+      .item__shop-it span {
+        display: block;
+        position: absolute;
+        top: 60%;
+        left: 32%;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &__tab-pane .item:last-child {
+    margin-right: 0;
   }
 }
