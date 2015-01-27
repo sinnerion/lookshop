@@ -266,3 +266,32 @@
     margin-right: 0;
   }
 }
+
+.fav-brands {
+  text-align: center;
+  font-size: 0;
+  background: url("../img/discounts-shape.png") repeat-x center bottom;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  &__heading {
+    font-size: 1.5rem;
+    color: $text-color5;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    background: url("../img/discounts-shape.png") repeat-x center center;
+    span {
+      display: inline-block;
+      position: relative;
+      padding: 0 1.2rem;
+      background: $main-color;
+    }
+  }
+  &__img {
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 6.4rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

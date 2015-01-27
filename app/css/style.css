@@ -548,21 +548,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 23, ../sass/_main.scss */
+/* line 24, ../sass/_main.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 29, ../sass/_main.scss */
+/* line 30, ../sass/_main.scss */
 ul li a:focus,
 ul li a:active {
   outline: none;
   border: none;
 }
 
-/* line 35, ../sass/_main.scss */
+/* line 36, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -571,7 +571,7 @@ ul li a:active {
   clear: both;
 }
 
-/* line 43, ../sass/_main.scss */
+/* line 44, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -580,17 +580,17 @@ ul li a:active {
   padding: 0;
 }
 
-/* line 51, ../sass/_main.scss */
+/* line 52, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
 
-/* line 55, ../sass/_main.scss */
+/* line 56, ../sass/_main.scss */
 .btn.shop-btn {
   background: #fd926d;
 }
 
-/* line 59, ../sass/_main.scss */
+/* line 60, ../sass/_main.scss */
 .my-btn.shop-btn-2 {
   display: block;
   background: #4fafa0;
@@ -599,12 +599,12 @@ ul li a:active {
   padding: 0 .8rem;
 }
 
-/* line 67, ../sass/_main.scss */
+/* line 68, ../sass/_main.scss */
 .my-btn.add-cart-btn {
   background: #fd926d;
 }
 
-/* line 71, ../sass/_main.scss */
+/* line 72, ../sass/_main.scss */
 .my-btn.add-cart-btn:active,
 .my-btn.add-cart-btn:focus {
   color: #fff;
@@ -1130,5 +1130,39 @@ ul li a:active {
 }
 /* line 265, ../sass/_content.scss */
 .discounts .item:last-child {
+  margin-right: 0;
+}
+
+/* line 270, ../sass/_content.scss */
+.fav-brands {
+  text-align: center;
+  font-size: 0;
+  background: url("../img/discounts-shape.png") repeat-x center bottom;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+/* line 276, ../sass/_content.scss */
+.fav-brands__heading {
+  font-size: 1.5rem;
+  color: #414141;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  background: url("../img/discounts-shape.png") repeat-x center center;
+}
+/* line 282, ../sass/_content.scss */
+.fav-brands__heading span {
+  display: inline-block;
+  position: relative;
+  padding: 0 1.2rem;
+  background: #fff;
+}
+/* line 289, ../sass/_content.scss */
+.fav-brands__img {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 6.4rem;
+}
+/* line 293, ../sass/_content.scss */
+.fav-brands__img:last-child {
   margin-right: 0;
 }
