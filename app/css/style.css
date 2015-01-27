@@ -1044,3 +1044,91 @@ ul li a:active {
 .shopping__tab-pane .item:last-child {
   margin-right: 0;
 }
+
+/* line 194, ../sass/_content.scss */
+.discounts {
+  margin-bottom: 6rem;
+}
+/* line 196, ../sass/_content.scss */
+.discounts-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  background: url("../img/discounts-shape.png") repeat-x center center;
+}
+/* line 200, ../sass/_content.scss */
+.discounts-heading__img {
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  padding: 0 1.6rem;
+}
+/* line 207, ../sass/_content.scss */
+.discounts .item {
+  cursor: pointer;
+  color: #373737;
+  text-align: center;
+  background: #f7f7f7;
+  width: 20%;
+  padding: 0 0 1rem;
+  margin: 0 2.45%;
+}
+/* line 215, ../sass/_content.scss */
+.discounts .item img {
+  width: 100%;
+}
+/* line 218, ../sass/_content.scss */
+.discounts .item__description {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+/* line 222, ../sass/_content.scss */
+.discounts .item__price {
+  font-size: 2.2rem;
+}
+/* line 225, ../sass/_content.scss */
+.discounts .item img, .discounts .item__description, .discounts .item__price {
+  margin-bottom: 1rem;
+}
+/* line 230, ../sass/_content.scss */
+.discounts .item .add-cart-btn {
+  padding: 0 1rem;
+  line-height: 3rem;
+}
+/* line 234, ../sass/_content.scss */
+.discounts .item__shop-it {
+  display: none;
+}
+/* line 237, ../sass/_content.scss */
+.discounts .item:hover {
+  position: relative;
+  transform: scale(1.07);
+  transition: all 1.4s;
+  box-shadow: 0 0 14px 5px #f7f7f7;
+}
+/* line 242, ../sass/_content.scss */
+.discounts .item:hover .item__shop-it {
+  font-size: 1.2rem;
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: 13.7rem;
+  height: 13.7rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -6.8rem;
+  margin-top: -6.8rem;
+  background: #3d3d3d url("../img/shop-it-icon.png") no-repeat center 40%;
+  border-radius: 50%;
+}
+/* line 256, ../sass/_content.scss */
+.discounts .item:hover .item__shop-it span {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+  text-transform: uppercase;
+}
+/* line 265, ../sass/_content.scss */
+.discounts .item:last-child {
+  margin-right: 0;
+}
