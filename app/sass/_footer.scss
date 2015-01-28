@@ -67,5 +67,47 @@
 
 .footer-copyright {
   background: $head-foot;
-  line-height: 7.4rem;
+  .footer-menu {
+    font-size: 0;
+    line-height: 7.4rem;
+    float: left;
+    ul {
+      margin: 0;
+    }
+    li {
+      padding-right: 1rem;
+      margin-right: 1rem;
+      display: inline-block;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    a {
+      position: relative;
+      font-size: 1.1rem;
+      color: $text-color10;
+      &:after {
+        content: '';
+        display: block;
+        width: 1px;
+        background: $text-color11;
+        height: 1rem;
+        position: absolute;
+        right: -1rem;
+        top: .2rem;
+      }
+      li:last-child a:after {
+        display: none;
+      }
+    }
+  }
+  &__copyright {
+    color: $text-color10;
+    padding-top: 2.4rem;
+    float: right;
+    text-align: right;
+    span {
+      display: block;
+    }
+  }
 }
