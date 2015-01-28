@@ -548,21 +548,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 25, ../sass/_main.scss */
+/* line 26, ../sass/_main.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 31, ../sass/_main.scss */
+/* line 32, ../sass/_main.scss */
 ul li a:focus,
 ul li a:active {
   outline: none;
   border: none;
 }
 
-/* line 37, ../sass/_main.scss */
+/* line 38, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -571,7 +571,7 @@ ul li a:active {
   clear: both;
 }
 
-/* line 45, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -580,17 +580,17 @@ ul li a:active {
   padding: 0;
 }
 
-/* line 53, ../sass/_main.scss */
+/* line 54, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
 
-/* line 57, ../sass/_main.scss */
+/* line 58, ../sass/_main.scss */
 .btn.shop-btn {
   background: #fd926d;
 }
 
-/* line 61, ../sass/_main.scss */
+/* line 62, ../sass/_main.scss */
 .my-btn.shop-btn-2 {
   display: block;
   background: #4fafa0;
@@ -599,12 +599,12 @@ ul li a:active {
   padding: 0 .8rem;
 }
 
-/* line 69, ../sass/_main.scss */
+/* line 70, ../sass/_main.scss */
 .my-btn.add-cart-btn {
   background: #fd926d;
 }
 
-/* line 73, ../sass/_main.scss */
+/* line 74, ../sass/_main.scss */
 .my-btn.add-cart-btn:active,
 .my-btn.add-cart-btn:focus {
   color: #fff;
@@ -1184,4 +1184,17 @@ ul li a:active {
   line-height: 1.8rem;
   color: #999;
   margin: 0;
+}
+
+/* line 315, ../sass/_content.scss */
+.payment {
+  background: #f7f7f7;
+  line-height: 6rem;
+  text-align: center;
+}
+/* line 319, ../sass/_content.scss */
+.payment span {
+  font-size: 1.2rem;
+  color: #ababab;
+  margin-right: 1.5rem;
 }
