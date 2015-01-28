@@ -548,21 +548,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 24, ../sass/_main.scss */
+/* line 25, ../sass/_main.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 30, ../sass/_main.scss */
+/* line 31, ../sass/_main.scss */
 ul li a:focus,
 ul li a:active {
   outline: none;
   border: none;
 }
 
-/* line 36, ../sass/_main.scss */
+/* line 37, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -571,7 +571,7 @@ ul li a:active {
   clear: both;
 }
 
-/* line 44, ../sass/_main.scss */
+/* line 45, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -580,17 +580,17 @@ ul li a:active {
   padding: 0;
 }
 
-/* line 52, ../sass/_main.scss */
+/* line 53, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
 
-/* line 56, ../sass/_main.scss */
+/* line 57, ../sass/_main.scss */
 .btn.shop-btn {
   background: #fd926d;
 }
 
-/* line 60, ../sass/_main.scss */
+/* line 61, ../sass/_main.scss */
 .my-btn.shop-btn-2 {
   display: block;
   background: #4fafa0;
@@ -599,12 +599,12 @@ ul li a:active {
   padding: 0 .8rem;
 }
 
-/* line 68, ../sass/_main.scss */
+/* line 69, ../sass/_main.scss */
 .my-btn.add-cart-btn {
   background: #fd926d;
 }
 
-/* line 72, ../sass/_main.scss */
+/* line 73, ../sass/_main.scss */
 .my-btn.add-cart-btn:active,
 .my-btn.add-cart-btn:focus {
   color: #fff;
@@ -1165,4 +1165,23 @@ ul li a:active {
 /* line 293, ../sass/_content.scss */
 .fav-brands__img:last-child {
   margin-right: 0;
+}
+
+/* line 299, ../sass/_content.scss */
+.about-lookshop {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+/* line 302, ../sass/_content.scss */
+.about-lookshop__heading {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  color: #414141;
+}
+/* line 307, ../sass/_content.scss */
+.about-lookshop p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #999;
+  margin: 0;
 }
