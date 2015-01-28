@@ -1,0 +1,71 @@
+.footer-nav {
+  padding: 3.5rem 0;
+  background: $bg3;
+  &__heading {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $text-color8;
+  }
+  &__column {
+    float: left;
+    margin-right: 9rem;
+    a {
+      color: $text-color9;
+      font-size: 1.2rem;
+      text-decoration: none;
+      &:hover {
+        color: $text-color9;
+      }
+    }
+  }
+  &__guarantee {
+    display: block;
+    padding-top: 1.6rem;
+  }
+}
+
+.footer__social {
+  ul {
+    margin: 0 auto .9rem;
+    font-size: 0;
+  }
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  li &-link {
+    font-size: 1rem;
+    display: block;
+    width: 3.7rem;
+    height: 3.7rem;
+    background: url("../img/footer-social-sprite.png") no-repeat;
+  }
+  &-link.social-tw {
+    background-position: 0px 0px;
+  }
+  &-link.social-pt {
+    background-position: -44px 0px;
+  }
+  &-link.social-fb {
+    background-position: -89px 0px;
+  }
+  &-link.social-gl {
+    background-position: 0px -43px;
+  }
+  &-link.social-tb {
+    background-position: -45px -43px;
+  }
+  &-link.social-vm {
+    background-position: -90px -43px;
+  }
+}
+
+.footer-copyright {
+  background: $head-foot;
+  line-height: 7.4rem;
+}

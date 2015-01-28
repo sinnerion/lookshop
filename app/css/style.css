@@ -548,21 +548,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 26, ../sass/_main.scss */
+/* line 28, ../sass/_main.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 32, ../sass/_main.scss */
+/* line 34, ../sass/_main.scss */
 ul li a:focus,
 ul li a:active {
   outline: none;
   border: none;
 }
 
-/* line 38, ../sass/_main.scss */
+/* line 40, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -571,7 +571,7 @@ ul li a:active {
   clear: both;
 }
 
-/* line 46, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -580,17 +580,17 @@ ul li a:active {
   padding: 0;
 }
 
-/* line 54, ../sass/_main.scss */
+/* line 56, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
 
-/* line 58, ../sass/_main.scss */
+/* line 60, ../sass/_main.scss */
 .btn.shop-btn {
   background: #fd926d;
 }
 
-/* line 62, ../sass/_main.scss */
+/* line 64, ../sass/_main.scss */
 .my-btn.shop-btn-2 {
   display: block;
   background: #4fafa0;
@@ -599,12 +599,12 @@ ul li a:active {
   padding: 0 .8rem;
 }
 
-/* line 70, ../sass/_main.scss */
+/* line 72, ../sass/_main.scss */
 .my-btn.add-cart-btn {
   background: #fd926d;
 }
 
-/* line 74, ../sass/_main.scss */
+/* line 76, ../sass/_main.scss */
 .my-btn.add-cart-btn:active,
 .my-btn.add-cart-btn:focus {
   color: #fff;
@@ -1197,4 +1197,91 @@ ul li a:active {
   font-size: 1.2rem;
   color: #ababab;
   margin-right: 1.5rem;
+}
+
+/* line 1, ../sass/_footer.scss */
+.footer-nav {
+  padding: 3.5rem 0;
+  background: #ededed;
+}
+/* line 4, ../sass/_footer.scss */
+.footer-nav__heading {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #544f4d;
+}
+/* line 11, ../sass/_footer.scss */
+.footer-nav__column {
+  float: left;
+  margin-right: 9rem;
+}
+/* line 14, ../sass/_footer.scss */
+.footer-nav__column a {
+  color: #8c8a89;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+/* line 18, ../sass/_footer.scss */
+.footer-nav__column a:hover {
+  color: #8c8a89;
+}
+/* line 23, ../sass/_footer.scss */
+.footer-nav__guarantee {
+  display: block;
+  padding-top: 1.6rem;
+}
+
+/* line 30, ../sass/_footer.scss */
+.footer__social ul {
+  margin: 0 auto .9rem;
+  font-size: 0;
+}
+/* line 34, ../sass/_footer.scss */
+.footer__social li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+/* line 37, ../sass/_footer.scss */
+.footer__social li:last-child {
+  margin-right: 0;
+}
+/* line 41, ../sass/_footer.scss */
+li .footer__social-link {
+  font-size: 1rem;
+  display: block;
+  width: 3.7rem;
+  height: 3.7rem;
+  background: url("../img/footer-social-sprite.png") no-repeat;
+}
+/* line 48, ../sass/_footer.scss */
+.footer__social-link.social-tw {
+  background-position: 0px 0px;
+}
+/* line 51, ../sass/_footer.scss */
+.footer__social-link.social-pt {
+  background-position: -44px 0px;
+}
+/* line 54, ../sass/_footer.scss */
+.footer__social-link.social-fb {
+  background-position: -89px 0px;
+}
+/* line 57, ../sass/_footer.scss */
+.footer__social-link.social-gl {
+  background-position: 0px -43px;
+}
+/* line 60, ../sass/_footer.scss */
+.footer__social-link.social-tb {
+  background-position: -45px -43px;
+}
+/* line 63, ../sass/_footer.scss */
+.footer__social-link.social-vm {
+  background-position: -90px -43px;
+}
+
+/* line 68, ../sass/_footer.scss */
+.footer-copyright {
+  background: #000;
+  line-height: 7.4rem;
 }
