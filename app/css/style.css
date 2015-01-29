@@ -548,21 +548,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 30, ../sass/_main.scss */
+/* line 31, ../sass/_main.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 36, ../sass/_main.scss */
+/* line 37, ../sass/_main.scss */
 ul li a:focus,
 ul li a:active {
   outline: none;
   border: none;
 }
 
-/* line 42, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -571,7 +571,7 @@ ul li a:active {
   clear: both;
 }
 
-/* line 50, ../sass/_main.scss */
+/* line 51, ../sass/_main.scss */
 .btn.my-btn {
   text-transform: uppercase;
   color: #fff;
@@ -580,17 +580,17 @@ ul li a:active {
   padding: 0;
 }
 
-/* line 58, ../sass/_main.scss */
+/* line 59, ../sass/_main.scss */
 .btn.my-btn:hover {
   color: #fff;
 }
 
-/* line 62, ../sass/_main.scss */
+/* line 63, ../sass/_main.scss */
 .btn.shop-btn {
   background: #fd926d;
 }
 
-/* line 66, ../sass/_main.scss */
+/* line 67, ../sass/_main.scss */
 .my-btn.shop-btn-2 {
   display: block;
   background: #4fafa0;
@@ -599,15 +599,66 @@ ul li a:active {
   padding: 0 .8rem;
 }
 
-/* line 74, ../sass/_main.scss */
+/* line 75, ../sass/_main.scss */
 .my-btn.add-cart-btn {
   background: #fd926d;
 }
 
-/* line 78, ../sass/_main.scss */
+/* line 79, ../sass/_main.scss */
 .my-btn.add-cart-btn:active,
 .my-btn.add-cart-btn:focus {
   color: #fff;
+}
+
+/* line 84, ../sass/_main.scss */
+.breadcrumbs {
+  line-height: 3rem;
+  margin-bottom: 2.4rem;
+}
+/* line 87, ../sass/_main.scss */
+.breadcrumbs .container {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+/* line 91, ../sass/_main.scss */
+.breadcrumbs ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+/* line 96, ../sass/_main.scss */
+.breadcrumbs li {
+  display: inline-block;
+  margin-right: .7rem;
+}
+/* line 100, ../sass/_main.scss */
+.breadcrumbs a {
+  position: relative;
+  display: block;
+  padding-right: 1.2rem;
+  font-size: 1.1rem;
+  color: #7a706d;
+}
+/* line 106, ../sass/_main.scss */
+.breadcrumbs a:after {
+  content: '>';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* line 113, ../sass/_main.scss */
+.breadcrumbs a:hover {
+  color: #7a706d;
+}
+/* line 116, ../sass/_main.scss */
+.breadcrumbs a.active:hover {
+  cursor: default;
+  text-decoration: none;
+}
+/* line 120, ../sass/_main.scss */
+.breadcrumbs a.active:after {
+  display: none;
 }
 
 /* line 1, ../sass/_header.scss */
@@ -1051,18 +1102,22 @@ ul li a:active {
 }
 /* line 196, ../sass/_content.scss */
 .discounts-heading {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #414141;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 2.5rem;
   background: url("../img/discounts-shape.png") repeat-x center center;
 }
-/* line 200, ../sass/_content.scss */
+/* line 204, ../sass/_content.scss */
 .discounts-heading__img {
   display: inline-block;
   background: #fff;
   position: relative;
   padding: 0 1.6rem;
 }
-/* line 207, ../sass/_content.scss */
+/* line 211, ../sass/_content.scss */
 .discounts .item {
   cursor: pointer;
   color: #373737;
@@ -1072,40 +1127,40 @@ ul li a:active {
   padding: 0 0 1rem;
   margin: 0 2.45%;
 }
-/* line 215, ../sass/_content.scss */
+/* line 219, ../sass/_content.scss */
 .discounts .item img {
   width: 100%;
 }
-/* line 218, ../sass/_content.scss */
+/* line 222, ../sass/_content.scss */
 .discounts .item__description {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
-/* line 222, ../sass/_content.scss */
+/* line 226, ../sass/_content.scss */
 .discounts .item__price {
   font-size: 2.2rem;
 }
-/* line 225, ../sass/_content.scss */
+/* line 229, ../sass/_content.scss */
 .discounts .item img, .discounts .item__description, .discounts .item__price {
   margin-bottom: 1rem;
 }
-/* line 230, ../sass/_content.scss */
+/* line 234, ../sass/_content.scss */
 .discounts .item .add-cart-btn {
   padding: 0 1rem;
   line-height: 3rem;
 }
-/* line 234, ../sass/_content.scss */
+/* line 238, ../sass/_content.scss */
 .discounts .item__shop-it {
   display: none;
 }
-/* line 237, ../sass/_content.scss */
+/* line 241, ../sass/_content.scss */
 .discounts .item:hover {
   position: relative;
   transform: scale(1.07);
   transition: all 1.4s;
   box-shadow: 0 0 14px 5px #f7f7f7;
 }
-/* line 242, ../sass/_content.scss */
+/* line 246, ../sass/_content.scss */
 .discounts .item:hover .item__shop-it {
   font-size: 1.2rem;
   color: #fff;
@@ -1120,7 +1175,7 @@ ul li a:active {
   background: #3d3d3d url("../img/shop-it-icon.png") no-repeat center 40%;
   border-radius: 50%;
 }
-/* line 256, ../sass/_content.scss */
+/* line 260, ../sass/_content.scss */
 .discounts .item:hover .item__shop-it span {
   display: block;
   position: absolute;
@@ -1128,12 +1183,12 @@ ul li a:active {
   left: 32%;
   text-transform: uppercase;
 }
-/* line 265, ../sass/_content.scss */
+/* line 269, ../sass/_content.scss */
 .discounts .item:last-child {
   margin-right: 0;
 }
 
-/* line 270, ../sass/_content.scss */
+/* line 274, ../sass/_content.scss */
 .fav-brands {
   text-align: center;
   font-size: 0;
@@ -1141,7 +1196,7 @@ ul li a:active {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
 }
-/* line 276, ../sass/_content.scss */
+/* line 280, ../sass/_content.scss */
 .fav-brands__heading {
   font-size: 1.5rem;
   color: #414141;
@@ -1149,36 +1204,36 @@ ul li a:active {
   margin-bottom: 1.5rem;
   background: url("../img/discounts-shape.png") repeat-x center center;
 }
-/* line 282, ../sass/_content.scss */
+/* line 286, ../sass/_content.scss */
 .fav-brands__heading span {
   display: inline-block;
   position: relative;
   padding: 0 1.2rem;
   background: #fff;
 }
-/* line 289, ../sass/_content.scss */
+/* line 293, ../sass/_content.scss */
 .fav-brands__img {
   font-size: 1rem;
   display: inline-block;
   margin-right: 6.4rem;
 }
-/* line 293, ../sass/_content.scss */
+/* line 297, ../sass/_content.scss */
 .fav-brands__img:last-child {
   margin-right: 0;
 }
 
-/* line 299, ../sass/_content.scss */
+/* line 303, ../sass/_content.scss */
 .about-lookshop {
   margin-bottom: 3rem;
   text-align: center;
 }
-/* line 302, ../sass/_content.scss */
+/* line 306, ../sass/_content.scss */
 .about-lookshop__heading {
   font-size: 2.4rem;
   margin-bottom: 1.5rem;
   color: #414141;
 }
-/* line 307, ../sass/_content.scss */
+/* line 311, ../sass/_content.scss */
 .about-lookshop p {
   font-size: 1.4rem;
   line-height: 1.8rem;
@@ -1186,13 +1241,13 @@ ul li a:active {
   margin: 0;
 }
 
-/* line 315, ../sass/_content.scss */
+/* line 319, ../sass/_content.scss */
 .payment {
   background: #f7f7f7;
   line-height: 6rem;
   text-align: center;
 }
-/* line 319, ../sass/_content.scss */
+/* line 323, ../sass/_content.scss */
 .payment span {
   font-size: 1.2rem;
   color: #ababab;

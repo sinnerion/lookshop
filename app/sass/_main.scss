@@ -16,6 +16,7 @@ $text-color8: #544f4d;
 $text-color9: #8c8a89;
 $text-color10: #8d8d8d;
 $text-color11: #737373;
+$text-color12: #7a706d;
 $icons1: #666;
 $icons2: #cacac9;
 $icons3: #867a76;
@@ -78,4 +79,46 @@ ul li a:active {
 .my-btn.add-cart-btn:active,
 .my-btn.add-cart-btn:focus {
   color: $main-color;
+}
+
+.breadcrumbs {
+  line-height: 3rem;
+  margin-bottom: 2.4rem;
+  .container {
+    border-top: 1px solid $border2;
+    border-bottom: 1px solid $border2;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+  }
+  li {
+    display: inline-block;
+    margin-right: .7rem;
+  }
+  a {
+    position: relative;
+    display: block;
+    padding-right: 1.2rem;
+    font-size: 1.1rem;
+    color: $text-color12;
+    &:after {
+      content: '>';
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    &:hover {
+      color: $text-color12;
+    }
+    &.active:hover {
+      cursor: default;
+      text-decoration: none;
+    }
+    &.active:after {
+      display: none;
+    }
+  }
 }
