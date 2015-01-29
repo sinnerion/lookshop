@@ -17,16 +17,21 @@ $text-color9: #8c8a89;
 $text-color10: #8d8d8d;
 $text-color11: #737373;
 $text-color12: #7a706d;
+$text-color13: #8f8f8f;
+$text-color14: #4a4a4a;
+$text-color15: #4d4d4d;
 $icons1: #666;
 $icons2: #cacac9;
 $icons3: #867a76;
 $icons4: #6b6b6b;
+$icons5: #ccc;
 $bg1: #fdfcfb;
 $bg2: #fafafa;
 $bg3: #ededed;
 $bg4: #f7f7f7;
 $bg5: #4fafa0;
 $bg6: #3d3d3d;
+$bg7: #feb298;
 
 * {
   -webkit-box-sizing: border-box;
@@ -84,14 +89,12 @@ ul li a:active {
 .breadcrumbs {
   line-height: 3rem;
   margin-bottom: 2.4rem;
-  .container {
-    border-top: 1px solid $border2;
-    border-bottom: 1px solid $border2;
-  }
   ul {
     margin: 0;
     padding: 0;
     font-size: 0;
+    border-top: 1px solid $border2;
+    border-bottom: 1px solid $border2;
   }
   li {
     display: inline-block;
