@@ -454,3 +454,59 @@
     }
   }
 }
+
+.we-in-social {
+  margin-bottom: 3.7rem;
+  .container {
+    padding: 2rem 8rem;
+    border-top: 1px solid $border2;
+    border-bottom: 1px solid $border2;
+  }
+  &__link.col-md-3 {
+    display: block;
+    height: 4.9rem;
+    font-size: 1.1rem;
+    color: $text-color15;
+    padding-top: .8rem;
+    text-transform: uppercase;
+    padding-left: 5.6rem;
+    background: url("../img/product-social-sprite.png") no-repeat;
+    span {
+      position: relative;
+      display: block;
+    }
+  }
+  &__link.social-fb {
+    background-position: 0px 0px;
+  }
+  &__link.social-pt {
+    background-position: 0px -5.4rem;
+  }
+  &__link.social-tw {
+    background-position: 0px -10.8rem;
+  }
+  &__link.social-em {
+    background-position: 0px -16.2rem;
+  }
+  &__link.social-fb:hover {
+    background-position: 5.6rem 0px;
+  }
+  &__link.social-pt:hover {
+    background-position: 5.6rem -5.4rem;
+  }
+  &__link.social-tw:hover {
+    background-position: 5.6rem -10.8rem;
+  }
+  &__link.social-em:hover {
+    background-position: 5.6rem -16.2rem;
+  }
+  &__link.col-md-3:hover {
+    text-decoration: none;
+    transition: 1.2s;
+    span {
+      transition: 1.2s;
+      color: $main-color;
+      transform: translateX(-90px);
+    };
+  }
+}

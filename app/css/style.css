@@ -1399,6 +1399,76 @@ ul li a:active {
   line-height: 47px;
 }
 
+/* line 458, ../sass/_content.scss */
+.we-in-social {
+  margin-bottom: 3.7rem;
+}
+/* line 460, ../sass/_content.scss */
+.we-in-social .container {
+  padding: 2rem 8rem;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+/* line 465, ../sass/_content.scss */
+.we-in-social__link.col-md-3 {
+  display: block;
+  height: 4.9rem;
+  font-size: 1.1rem;
+  color: #4d4d4d;
+  padding-top: .8rem;
+  text-transform: uppercase;
+  padding-left: 5.6rem;
+  background: url("../img/product-social-sprite.png") no-repeat;
+}
+/* line 474, ../sass/_content.scss */
+.we-in-social__link.col-md-3 span {
+  position: relative;
+  display: block;
+}
+/* line 479, ../sass/_content.scss */
+.we-in-social__link.social-fb {
+  background-position: 0px 0px;
+}
+/* line 482, ../sass/_content.scss */
+.we-in-social__link.social-pt {
+  background-position: 0px -5.4rem;
+}
+/* line 485, ../sass/_content.scss */
+.we-in-social__link.social-tw {
+  background-position: 0px -10.8rem;
+}
+/* line 488, ../sass/_content.scss */
+.we-in-social__link.social-em {
+  background-position: 0px -16.2rem;
+}
+/* line 491, ../sass/_content.scss */
+.we-in-social__link.social-fb:hover {
+  background-position: 5.6rem 0px;
+}
+/* line 494, ../sass/_content.scss */
+.we-in-social__link.social-pt:hover {
+  background-position: 5.6rem -5.4rem;
+}
+/* line 497, ../sass/_content.scss */
+.we-in-social__link.social-tw:hover {
+  background-position: 5.6rem -10.8rem;
+}
+/* line 500, ../sass/_content.scss */
+.we-in-social__link.social-em:hover {
+  background-position: 5.6rem -16.2rem;
+}
+/* line 503, ../sass/_content.scss */
+.we-in-social__link.col-md-3:hover {
+  text-decoration: none;
+  transition: 1.2s;
+}
+/* line 506, ../sass/_content.scss */
+.we-in-social__link.col-md-3:hover span {
+  transition: 1.2s;
+  color: #fff;
+  transform: translateX(-90px);
+}
+
 /* line 1, ../sass/_footer.scss */
 .footer-nav {
   padding: 3.5rem 0;
@@ -1415,7 +1485,7 @@ ul li a:active {
 /* line 11, ../sass/_footer.scss */
 .footer-nav__column {
   float: left;
-  margin-right: 9rem;
+  margin-right: 8rem;
 }
 /* line 14, ../sass/_footer.scss */
 .footer-nav__column a {
