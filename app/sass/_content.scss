@@ -510,3 +510,80 @@
     };
   }
 }
+
+.product-accordion {
+  margin-bottom: 4.2rem;
+  .panel-group &__panel.panel {
+    margin-bottom: -.6rem;
+    border: none;
+    border-radius: 0;
+  }
+  &__heading.panel-heading {
+    font-size: 1.4rem;
+    padding: 1.8rem;
+    margin: 0;
+    border-radius: 0;
+    font-size: 0;
+    a {
+      color: $main-color;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+    }
+    a:hover,
+    a:focus,
+    a:active {
+      border: none;
+      text-decoration: none;
+      outline: none;
+    }
+    a .glyphicon {
+      display: inline-block;
+      border: 1px solid $main-color;
+      font-size: 1.1rem;
+      line-height: 2.2rem;
+      width: 2.2rem;
+      text-align: center;
+      margin-right: 1rem;
+    }
+    a .glyphicon.glyphicon-chevron-down {
+      display: none;
+    }
+    a[aria-expanded="true"] .glyphicon.glyphicon-chevron-down {
+      display: inline-block;
+    }
+    a[aria-expanded="true"] .glyphicon.glyphicon-chevron-right {
+      display: none;
+    }
+  }
+  &__heading.panel-heading.heading-1 {
+    background: lighten($element-color, 20%);
+    a .glyphicon.glyphicon-chevron-right {
+      background: $element-color;
+    }
+  }
+  &__heading.panel-heading.heading-2 {
+    background: lighten($element-color, 15%);
+    a .glyphicon.glyphicon-chevron-right {
+      background: lighten($element-color, 5%);
+    }
+  }
+  &__heading.panel-heading.heading-3 {
+    background: lighten($element-color, 10%);
+    a .glyphicon.glyphicon-chevron-right {
+      background: lighten($element-color, 10%);
+    }
+  }
+  &__heading.panel-heading.heading-4 {
+    background: lighten($element-color, 5%);
+    a .glyphicon.glyphicon-chevron-right {
+      background: lighten($element-color, 15%);
+    }
+  }
+  &__heading.panel-heading.heading-5 {
+    background: $element-color;
+    a .glyphicon.glyphicon-chevron-right {
+      background: lighten($element-color, 20%);
+    }
+  }
+
+}
