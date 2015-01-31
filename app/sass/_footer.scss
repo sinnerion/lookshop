@@ -23,6 +23,8 @@
   &__guarantee {
     display: block;
     padding-top: 1.6rem;
+    width: 10.7rem;
+    float: left;
   }
 }
 
@@ -96,9 +98,9 @@
         right: -1rem;
         top: .2rem;
       }
-      li:last-child a:after {
-        display: none;
-      }
+    }
+    li:last-child a:after {
+      display: none;
     }
   }
   &__copyright {
