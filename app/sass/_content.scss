@@ -210,66 +210,14 @@
       padding: 0 1.6rem;
     }
   }
-  .item {
+  .item-block {
     cursor: pointer;
     color: $text-color1;
     text-align: center;
     background: $bg4;
-    width: 20%;
     padding: 0 0 1rem;
+    width: 20%;
     margin: 0 2.45%;
-    img {
-      width: 100%;
-    }
-    &__description {
-      text-transform: uppercase;
-      font-size: 1.2rem;
-    }
-    &__price {
-      font-size: 2.2rem;
-    }
-    img,
-    &__description,
-    &__price {
-      margin-bottom: 1rem;
-    }
-    .add-cart-btn {
-      padding: 0 1rem;
-      line-height: 3rem;
-    }
-    &__shop-it {
-      display: none;
-    }
-    &:hover {
-      position: relative;
-      transform: scale(1.07);
-      transition: all 1.4s;
-      box-shadow: 0 0 14px 5px $bg4;
-      .item__shop-it {
-        font-size: 1.2rem;
-        color: $main-color;
-        display: block;
-        position: absolute;
-        width: 13.7rem;
-        height: 13.7rem;
-        top: 50%;
-        left: 50%;
-        margin-left: -6.8rem;
-        margin-top: -6.8rem;
-        background: $bg6 url("../img/shop-it-icon.png") no-repeat center 40%;
-        border-radius: 50%;
-      }
-      .item__shop-it span {
-        display: block;
-        position: absolute;
-        top: 60%;
-        left: 32%;
-        text-transform: uppercase;
-      }
-    }
-  }
-  .item:last-child {
-    margin-right: 0;
   }
 }
 
@@ -654,3 +602,63 @@
     height: 1rem;
   }
 }
+
+.assortment {
+  .filter {
+    padding: 0px;
+    height: 6rem;
+    line-height: 6rem;
+    border-bottom: 1px solid $border2;
+    margin-bottom: 1.5rem;
+    &__sort {
+      float: left;
+    }
+  }
+  .filter-down {
+    margin-bottom: 0;
+    border: none;
+  }
+  .assortment-pagination {
+    float: right;
+    span {
+      float: left;
+    }
+    .pagination {
+      font-size: 0;
+      padding: 0px;
+      margin: 13px 0px 0px 10px;
+      border-radius: 0;
+    }
+    .pagination > li {
+      font-size: 1.1rem;
+      line-height: 3.1rem;
+      margin-right: .4rem;
+      display: inline-block;
+    }
+    .pagination > li:last-child {
+      margin-right: 0;
+    }
+    .pagination > li > a {
+      border-radius: 0;
+      border: none;
+      background: $bg8;
+      color: $text-color15;
+    }
+    .pagination > li.active a {
+      background: darken($bg8, 5.5%);
+    }
+  }
+  &__item-block.item-block {
+    width: 30.55%;
+    padding: 0 0 1rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+    &:nth-last-child(-n+3) {
+      margin-bottom: 0;
+    }
+  }
+}
+
