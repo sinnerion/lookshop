@@ -662,3 +662,90 @@
   }
 }
 
+.assortment-sidebar {
+  padding-top: 1.5rem;
+  &__heading {
+    line-height: 3.1rem;
+    color: $main-color;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    background: $head-foot;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .categories {
+    margin-bottom: 3.8rem;
+    .panel {
+      border: none;
+      box-shadow: none;
+    }
+    .panel-title {
+      font-size: 1.2rem;
+      line-height: 2.6rem;
+    }
+    .panel-heading {
+      padding: 0;
+      border-radius: 0;
+      border-bottom: 1px solid $border2;
+      background: $main-color;
+      text-transform: uppercase;
+      color: darken($text-color11, .5%);
+    }
+    .padding-heading a {
+      border: none;
+      box-shadow: none;
+    }
+    .panel .panel-body a {
+      color: darken($text-color11, .5%);
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+    }
+    .panel .panel-body a .glyphicon {
+      color: $element-color;
+      font-size: 1rem;
+      margin-right: .5rem;
+    }
+    .panel .panel-body a.active {
+      color: darken($bg6, 1.1%);
+    }
+    .panel + .panel {
+      margin-top: 0;
+    }
+    .panel-heading + .panel-collapse > .panel-body {
+      border-top: none;
+      border-bottom: 1px solid $border2;
+      padding: 0 0 0 .6rem;
+    }
+    .collapse.in {
+      margin-top: -1px;
+      border-top: 1px solid $main-color;
+    }
+  }
+  .on-sale {
+    margin-bottom: 2rem;
+  }
+}
+
+.assortment-item {
+  padding: 0 0 .9rem;
+  margin-bottom: .9rem;
+  border-bottom: 1px solid $border2;
+  &__img {
+    float: left;
+    margin-right: .9rem;
+  }
+  &__name {
+    color: lighten($text-color4, 3.5%);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  &__price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $element-color;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
