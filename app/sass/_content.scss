@@ -691,9 +691,35 @@
       text-transform: uppercase;
       color: darken($text-color11, .5%);
     }
-    .padding-heading a {
+    .panel-heading a {
+      display: block;
       border: none;
+      position: relative;
       box-shadow: none;
+    }
+    .panel-heading a .glyphicon {
+      position: absolute;
+      right: 0;
+      top: .7rem;
+      font-size: 1rem;
+      color: $head-foot;
+    }
+    .panel-heading a .glyphicon-minus {
+      display: none;
+    }
+    .panel-heading a[aria-expanded="true"] .glyphicon-minus {
+      display: block;
+    }
+    .panel-heading a[aria-expanded="true"] .glyphicon-plus {
+      display: none;
+    }
+    .panel-heading a:hover,
+    .panel-heading a[aria-expanded="true"]{
+      text-decoration: none;
+    }
+    .panel-heading a:focus,
+    .panel-heading a:active {
+      outline: none;
     }
     .panel .panel-body a {
       color: darken($text-color11, .5%);
