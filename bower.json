@@ -1,9 +1,22 @@
 {
   "name": "lookshop",
-  "version": "1.0.0",
-  "main": "app/index.html",
+  "description": "OptimizedHTML - Start HTML Template",
+  "main": "common.js",
+  "authors": [
+    "WebDesign Master"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sinnerion/lookshop",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "bootstrap": "~3.3.2"
-  },
-  "appPath": "app"
+    "bootstrap-sass": "^3.3.7"
+  }
 }

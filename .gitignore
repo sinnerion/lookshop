@@ -1,4 +1,3 @@
-.idea
-app/config.rb
-.sass-cache
-.bowerrc
+/node_modules/
+/dist/
+libs/bootstrap-sass
